@@ -13,6 +13,7 @@
 ---
 
 - After created
+
 ![img.png](images/03_assign_role_to_ec2_after_creation.png)
 
 ---
