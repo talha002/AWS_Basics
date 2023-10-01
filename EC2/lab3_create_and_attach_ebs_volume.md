@@ -1,8 +1,8 @@
-## create instance
+## 1. Create instance
 
-## From Networking learn Availability Zone (AZ)
+## 2. From Networking learn Availability Zone (AZ)
 
-## Connect instance
+## 3. Connect instance and list volumes
 ```
 [ec2-user@ip-172-31-44-74 ~]$ lsblk
 NAME      MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
@@ -12,15 +12,15 @@ xvda      202:0    0   8G  0 disk
 └─xvda128 259:1    0  10M  0 part
 ```
 
-## Create volume in the same AZ with instance
+## 4. Create volume in the same AZ with instance
 
 ![](images/04_atacah_volume.png)
 
 ---
 
-## Attach volume to instance
+## 5. Attach volume to instance
 
-## Mount volume to /data folder
+## 6. Mount volume to /data folder
 - See the volume
 ```
 lsblk
@@ -45,14 +45,14 @@ sudo mount /dev/xvdf /data
 ```
 - Create some fıle in /data
 
-## Create another EC2 instance
+## 7. Create another EC2 instance
 
-## Terminate first instance
+## 8. Terminate first instance
 
-## Attach volume to new (second) instance
+## 9. Attach volume to new (second) instance
 - Create /data
 - Mount volume
 
-## Terminate instance (second)
+## 10. Terminate instance (second)
 
-## Delete volume
+## 11. Delete volume
